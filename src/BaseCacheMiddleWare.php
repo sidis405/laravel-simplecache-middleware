@@ -6,7 +6,7 @@ use Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 
-class ClassName extends AnotherClass
+class BaseCacheMiddleware
 {
     public $config;
     

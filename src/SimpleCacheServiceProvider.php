@@ -17,8 +17,8 @@ class SimpleCacheServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $provider->publishes([
-        __DIR__.'/../resources/config/acl.php' => config_path('simplecache.php'),
+        $this->publishes([
+        __DIR__.'/../resources/config/simplecache.php' => config_path('simplecache.php'),
         ]);
     }
 }
