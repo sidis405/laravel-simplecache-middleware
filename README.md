@@ -41,8 +41,6 @@ Add to Kernel.php
 
 ##Todo
 - Test. Tests. Tests.
-- Expanded documentation on adding roles and permissions
-- Management controllers and views
 
 # Contributing
 
