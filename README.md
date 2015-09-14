@@ -35,6 +35,7 @@ php artisan vendor:publish
 Add to Kernel.php
 
 'cacheafter' => \Sid\SimpleCache\AfterCacheMiddleware::class,
+
 'cachebefore' => \Sid\SimpleCache\BeforeCacheMiddleware::class,
 
 
