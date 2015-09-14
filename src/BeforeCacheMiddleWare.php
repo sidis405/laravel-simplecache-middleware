@@ -16,10 +16,14 @@ class BeforeCacheMiddleWare extends BaseCacheMiddleware
 
     public function handle($request, Closure $next)
     {
+        //check if cache is enabled
         if ($this->enabled()) {
+            //generate e key to search by url
             $key = $this->keygen($request->url());
 
+            //check if key is in cache
             if ($this->has($key)) {
+                //fetch and return the key
                 return response($this->get($key));
             }
         }

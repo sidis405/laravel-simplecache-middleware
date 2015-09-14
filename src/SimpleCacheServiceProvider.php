@@ -10,9 +10,7 @@ class SimpleCacheServiceProvider extends ServiceProvider
     protected $defer = false;
 
     /**
-     * Register any application authentication / authorization services.
-     *
-     * @param  \Illuminate\Contracts\Auth\Access\Gate  $gate
+     * Register
      * @return void
      */
     public function boot()
