@@ -8,8 +8,9 @@ Cache Urls
 Add to composer.json 
 
 ```php
-"sid/laravel-simplecache":"dev-master" 
+"sid/laravel-simplecache-middleware":"dev-master" 
 ```
+
 
 Register the service provider by adding in the provider section in config/app.php
 
