@@ -34,10 +34,10 @@ php artisan vendor:publish
 
 Add to Kernel.php
 
+```php
 'cacheafter' => \Sid\SimpleCache\AfterCacheMiddleware::class,
-
 'cachebefore' => \Sid\SimpleCache\BeforeCacheMiddleware::class,
-
+```
 
 ##Todo
 - Test. Tests. Tests.
