@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/badges/build.png?b=master)](https://scrutinizer-ci.com/g/sidis405/laravel-simplecache-middleware/build-status/master)
+
 Cache Urls
 
 - Very alpha stages. Not unstable but i need to write tests for it.
