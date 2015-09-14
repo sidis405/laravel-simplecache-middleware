@@ -1,5 +1,5 @@
 {
-  "name": "sid/laravel-simplecache",
+  "name": "sid/laravel-simplecache-middleware",
   "description": "Cache Urls",
   "keywords": [
     "sid",
